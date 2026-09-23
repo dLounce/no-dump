@@ -1,4 +1,6 @@
-# minimal-output-and-code
+# 🚫 no-dump
+
+**Stop dumping full logs into Claude.**
 
 A Claude skill that saves tokens during coding and Kaggle projects. Claude asks for **only the output or code segment it actually needs**, and sends back **only the code that changed**. No more full logs, full notebooks or full files.
 
@@ -44,24 +46,24 @@ print('final loss/val:', round(l[-1], 4), round(vl[-1], 4))
 
 ### Claude app (web / desktop)
 
-1. Download this repo as a ZIP, or zip the `minimal-output-and-code/` folder.
+1. Download this repo as a ZIP, or zip the `no-dump/` folder.
 2. Go to **Settings → Capabilities → Skills**.
 3. Upload the ZIP.
 
 ### Claude Code
 
 ```bash
-git clone https://github.com/dLounce/minimal-output-and-code.git
-cp -r minimal-output-and-code/minimal-output-and-code ~/.claude/skills/
+git clone https://github.com/dLounce/no-dump.git
+cp -r no-dump/no-dump ~/.claude/skills/
 ```
 
 ## Repository structure
 
 ```
-minimal-output-and-code/
+no-dump/
 ├── README.md
 ├── LICENSE
-└── minimal-output-and-code/
+└── no-dump/
     └── SKILL.md
 ```
 
